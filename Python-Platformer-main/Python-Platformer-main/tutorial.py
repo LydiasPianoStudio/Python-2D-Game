@@ -20,7 +20,7 @@ def get_background(name):
     _, _, width, height = image.get_rect()
     tiles = []
 
-    for i in range(WIDTH // wodth + 1):
+    for i in range(WIDTH // width + 1):
         for j in range(HEIGHT // height + 1):
             pos = [i * width, j * height]
             tiles.append(pos)
